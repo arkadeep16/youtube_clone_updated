@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>YouTube-Style Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Subscriptions</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">History</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <input type="text" placeholder="Search here..." id="searchInput">
+                <button id="searchBtn">Search</button>
+            </header>
+            <ol id="videoContainer">
+                <!-- Videos will be displayed here -->
+            </ol>
+        </main>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
