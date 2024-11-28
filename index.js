@@ -22,7 +22,7 @@ function displayVideo(videos) {
      videos.map((video,i)=>{
         
         videoContainer.innerHTML += `
-            <a href="/video.html?videoId=${video.id.videoId}">
+            <a href="/youtube_clone_updated/video.html?videoId=${video.id.videoId}">
                 <li>
                     <img src="${video.snippet.thumbnails.high.url}" alt="">
                     <p>${video.snippet.title}</p>
